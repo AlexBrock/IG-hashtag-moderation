@@ -1,0 +1,82 @@
+.ig__item{
+	float:left;
+	width:300px;
+	margin-right:20px;
+	margin-bottom:20px;
+	border:1px solid #f0f0f0;
+	background:#ffffff;
+}
+
+.ig__item--user-meta{
+	width:100%;
+	.user-meta__profile{
+		width:40px;
+		float:left;
+	}
+	.user-meta__name a{
+		float:left;
+		margin-top:20px;
+		margin-left:10px;
+		font-weight:600;
+		color:$purple;
+		text-decoration:none;
+	}
+}
+.ig__item--meta{
+	padding:10px;
+	.meta__likes{
+		background-image:url('../images/like.svg');
+		background-repeat:no-repeat;
+		background-position:left center;
+		padding-left:25px;
+		margin-right:10px;
+		float:left;
+		font-weight:bold;
+		color:$purple;
+	}
+	.meta__comments{
+		background-image:url('../images/comment.svg');
+		background-repeat:no-repeat;
+		background-position:left center;
+		padding-left:25px;
+		margin-right:10px;
+		float:left;
+		font-weight:bold;
+		color:$purple;
+	}
+	.meta__date{
+		float:right;
+		font-weight:600;
+		color:$purple;
+	}
+}
+.ig__item--caption{
+	padding:10px;
+	clear:left;
+	float:left;
+	width:100%;
+	height:120px;
+}
+.ig__add--item, .ig__null--item{
+	width:100%;
+	margin-top:2px;
+	background:$purple;
+	padding:5px;
+	text-align:center;
+	float:left;
+	color:$white;
+	cursor:pointer;
+	font-weight:600;
+}
+
+.ig__remove--item{
+	width:100%;
+	margin-top:2px;
+	background:$purple;
+	padding:5px;
+	text-align:center;
+	float:left;
+	color:$white;
+	cursor:pointer;
+	font-weight:600;
+}

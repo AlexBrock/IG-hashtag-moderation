@@ -1,0 +1,61 @@
+.sidebar{
+	background:$purple;
+	width:200px;
+	height:100%;
+	float:left;
+	position:fixed;
+	padding:20px;
+
+	ul{
+		list-style:none;
+		margin:0px;
+		padding:0px;
+		li{
+			list-style:none;
+			cursor:pointer;
+			color:$white;
+			clear:left;
+			float:left;
+			width:100%;
+			margin-bottom:10px;		
+			padding-left:25px;	
+			background-repeat:no-repeat;
+			background-position:left center;
+			background-size:16px auto;
+		}
+	}
+
+	.top-nav{
+		li{
+			padding-top:3px;
+		}
+		.count{
+			border-radius:3px;
+			background:$lightPurple;
+			width:30px;
+			height:2em;
+			padding-top:0.2em;
+			float:right;
+			text-align:center;
+			margin-top:-3px;
+		}
+	}
+
+	.bottom-nav{
+		position:absolute;
+		bottom:20px;
+	}
+
+	li[data-nav="confirmed"]{
+		background-image:url('../images/confirmed.svg');
+	}
+	li[data-nav="all_posts"]{
+		background-image:url('../images/hashtag.svg');
+	}
+	li[data-nav="update"]{
+		background-image:url('../images/reload.svg');
+	}
+	li[data-nav="reload_all"]{
+		background-image:url('../images/caution.svg');
+	}
+}
